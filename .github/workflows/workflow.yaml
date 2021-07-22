@@ -1,0 +1,10 @@
+on: push
+name: ci
+jobs:
+  checks:
+    name: run
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+      - name: lint, build and test
+        run: make
