@@ -7,4 +7,4 @@ jobs:
     steps:
       - uses: actions/checkout@master
       - name: lint, build and test
-        run: make
+        run: make test
