@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"net/http/httputil"
 
-	"github.com/mkorolyov/form3-interview/log"
+	"github.com/mkorolyov/httpclient/log"
 )
 
 // DumpRequestFunc function to dump request. In most cases httputil.DumpRequestOut can be used
